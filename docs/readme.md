@@ -3,7 +3,7 @@
 ---
 
 * **Built an end-to-end Retail Sales ETL pipeline** using **Python** and **PySpark**, ingesting raw **CSV data from AWS S3**, **validating schemas**, enriching via **MySQL dimension tables**, and delivering **analytics-ready Customer & Sales Data Marts**.
-* **Architected a modular, layered ETL framework** in **Python**, separating **ingestion**, **database operations**, and **Spark transformations** across **Dev/QA/Prod environments** for **scalability** and **maintainability**.
+* Architected a **modular, layered ETL** pipeline in **Python**, separating ingestion, database operations, and **Spark transformations** across Dev/QA/Prod environments for scalability and maintainability.
 * **Optimized Spark with partitioned Parquet**, reducing **storage by 59%** and improving **query performance by 43%**, processing **~500K transactions in 1–2 minutes** using **Docker** and **centralized logging**.
 
 ---
