@@ -2,10 +2,9 @@
 
 ---
 
-* **Built an end-to-end backend ETL Data Pipeline using Python and PySpark**, retrieving raw CSV files from **AWS S3**, validating schemas, enriching data via **MySQL dimension tables**, and creating analytics-ready **Customer and Sales Team Data Marts**.
-* **Implemented modular, layered architecture with Python packages** to separate file handling, database access, **Spark transformations**, and utilities, improving maintainability, debugging, and scalability.
-* **Optimized Spark ETL with partitioned Parquet storage** by converting ~500,000 CSV retail transactions to **Parquet**, reducing storage by **~59%** (1.9 GB → 780 MB), leveraging **Spark window functions** for rankings, aggregations, and business calculations, improving query performance by **~43%** and monthly analytics queries by **~31%**.
-* **Deployed a production-ready ETL workflow** with Docker and Python/PySpark, including centralized logging, environment-specific configs (dev/QA/prod), automated S3 uploads, MySQL staging updates `(active/inactive)` , and synthetic dataset generation with **Faker**, completing the full ETL in **~1–2 minutes** locally.
+* **Built an end-to-end Retail Sales ETL pipeline** using **Python** and **PySpark**, ingesting raw **CSV data from AWS S3**, **validating schemas**, enriching via **MySQL dimension tables**, and delivering **analytics-ready Customer & Sales Data Marts**.
+* **Architected a modular, layered ETL framework** in **Python**, separating **ingestion**, **database operations**, and **Spark transformations** across **Dev/QA/Prod environments** for **scalability** and **maintainability**.
+* **Optimized Spark with partitioned Parquet**, reducing **storage by 59%** and improving **query performance by 43%**, processing **~500K transactions in 1–2 minutes** using **Docker** and **centralized logging**.
 
 ---
 
