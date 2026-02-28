@@ -228,9 +228,10 @@ my_project/
    * Verify S3 for partitioned Parquet files and MySQL for updated data marts
 
 ---
+
 **Author**: Utkarsh Reddy Nathala
 
-**Linkedin**: https://www.linkedin.com/in/utkarsh-reddy-nathala-b5b56728a/
+**Linkedin**: https://www.linkedin.com/in/utkarshreddynathala/
 
 **Contact**: utkarshnathala@gmail.com , 8977011784
 
